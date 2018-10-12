@@ -1,0 +1,7 @@
+version: '3.5'
+services:
+  myapp:
+    image: kran1320/fonresumehtml
+    ports:
+      - "8099:8000"
+    command: "node index.js"
